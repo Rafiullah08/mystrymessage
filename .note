@@ -18,3 +18,26 @@ Setup Resend email with NextJS
 
 class 5
 Signup user and custom OTP in NextJS
+
+
+class 6 
+Crash course on Next Auth or Authjs
+Authjs keliye ek apko providers ka knowledge ho
+or dusra apko callback ka 
+Authjs use krne k steps
+
+1. create folder /api/auth/[...nextauth] 
+2. then create 2 file inside the nextauth folder
+in first file define providers credential callback pages etc
+and in 2nd file just const handler = NextAuth(outhOption)
+3. create middlewear file in root directory
+and just copy paste middlewer code and confige all existing file 
+in middlewear config
+4. create a context folder inside api folder
+where we use sessionfolder and wrap our layout file in sessionprovider
+
+5. create a sigin file for frontend
+start me hi ek file create krna hai nextAuth.d.ts isme hum type script ke types define krke save krte hain
+
+class 7
+OTP verification and unique username check in Nextjs

@@ -11,8 +11,8 @@ try {
     
    const {userName, email, password} =  await request.json()
 
- const existingUserWithUserName =  await UserModel.findOne({
-            $or: userName || email
+   const existingUserWithUserName =  await UserModel.findOne({
+            $or: [{userName: userName}, {email:email}]
       
             })
 
